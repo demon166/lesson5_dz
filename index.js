@@ -50,16 +50,8 @@ function initSnake(str) {
 function repeatStr(str, n) {
 
 }
-//     Напишите функцию path(pathname), которая возвращает имя файла (подстрока после последнего символа "\" ) из полного пути к файлу.
-function path(pathname){
-
-}
 //     Создайте функцию endsWith(), который сравнивает подстроку str1 с окончанием исходной строки str и определяет заканчивается ли строка символами подстроки.
 function endsWith(str, str1){
-
-}
-//     Напишите функцию getSubstr(str, char, pos), которая возвращает часть строки, расположенную после или до указанного символа char в зависимости от параметра pos.
-function getSubstr(str, char, pos){
 
 }
 //     Напишите функцию insert(str, substr, pos), которая вставляет подстроку substr в указанную позицию pos строки str. По умолчанию подстрока вставляется в начало строки.
@@ -101,9 +93,7 @@ module.exports = {
         initCap,
         initSnake,
         repeatStr,
-        path,
         endsWith,
-        getSubstr,
         insert,
         limitStr,
         count,
